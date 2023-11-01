@@ -1,0 +1,114 @@
+object Form1: TForm1
+  Left = 449
+  Height = 312
+  Top = 173
+  Width = 516
+  Caption = 'FAKTORIAL'
+  ClientHeight = 312
+  ClientWidth = 516
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -15
+  Font.Name = 'Dubai Medium'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 33
+    Top = 32
+    Width = 50
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'N'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Name = 'Algerian'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtDeret: TEdit
+    Left = 119
+    Height = 25
+    Top = 31
+    Width = 192
+    HideSelection = False
+    OnChange = edtDeretChange
+    TabOrder = 0
+  end
+  object btnHitung: TButton
+    Left = 368
+    Height = 33
+    Top = 31
+    Width = 130
+    Caption = 'Hitung'
+    OnClick = btnHitungClick
+    TabOrder = 1
+  end
+  object rgHasil: TGroupBox
+    Left = 32
+    Height = 190
+    Top = 80
+    Width = 279
+    Caption = 'Hasil'
+    ClientHeight = 167
+    ClientWidth = 275
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Agency FB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 2
+    object Label2: TLabel
+      Left = 14
+      Height = 34
+      Top = 21
+      Width = 73
+      AutoSize = False
+      Caption = 'Faktorial'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -13
+      Font.Name = 'Agency FB'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+      OnClick = Label2Click
+    end
+    object edtFaktorial: TEdit
+      Left = 118
+      Height = 26
+      Top = 21
+      Width = 139
+      TabOrder = 0
+    end
+    object edtJumlah: TEdit
+      Left = 118
+      Height = 26
+      Top = 80
+      Width = 139
+      TabOrder = 1
+    end
+    object Label3: TLabel
+      Left = 14
+      Height = 33
+      Top = 80
+      Width = 74
+      AutoSize = False
+      Caption = 'Jumlah'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -15
+      Font.Name = 'Agency FB'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+end
